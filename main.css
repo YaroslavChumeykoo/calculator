@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+} 
+
+.calc{
+    padding: 8px;
+    border: 2px solid black;
+    display: flex;
+    width: 30%;
+    height: 40%;;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+input{
+    margin: 2px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+button{
+    margin: 5px;
+    font-size: 25px;
+    width: calc(25% - 10px);
+    border-radius: 30px;
+}
+
+button:hover{
+    transform: scale(1.07);
+    border-color: blue;
+}
